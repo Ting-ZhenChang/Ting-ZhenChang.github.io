@@ -50,7 +50,7 @@ int main() {
 	while (current != nullptr) {
 		Node* temp = current;	//10為temp
 		current=current->next;	//10的下一個變成current(20 = current)
-		delete temp;			//delete 10
+		delete temp;			//delete 10，繼續跑while
 	}
 	return 0;
 }
@@ -59,3 +59,4 @@ int main() {
 //NODE:0 VALUE : 10 ADRESS : 0000016ADF8A4B40 NEXT ADRESS : 0000016ADF8A54F0
 //NODE : 1 VALUE : 20 ADRESS : 0000016ADF8A54F0 NEXT ADRESS : 0000016ADF8A57C0
 //NODE : 2 VALUE : 30 ADRESS : 0000016ADF8A57C0 NEXT ADRESS : 0000000000000000
+
