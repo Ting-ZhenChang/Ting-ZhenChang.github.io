@@ -1,4 +1,7 @@
-﻿#include <iostream>
+//Initialize the binary tree on the right and check if it is balanced
+//Checks if the binary tree is balanced or not using recursive method
+
+#include <iostream>
 #include <algorithm>
 using namespace std;
 
@@ -52,3 +55,4 @@ int main() {
     bool isBalanced = tree->checkBalance(tree);
     cout << (isBalanced ? "Tree is balanced" : "Tree is not balanced") << endl;
 }
+
