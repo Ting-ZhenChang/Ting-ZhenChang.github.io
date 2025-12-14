@@ -1,4 +1,7 @@
-﻿#include <iostream>
+//InsertData(a): 從 root 開始，一路往左 / 右比大小，找到 null 的位置，插入成為葉節點
+//SearchDataSearchDa)，從 root 開始遞迴，比大小，決定往左或右，找到或回傳 null
+
+#include <iostream>
 using namespace std;
 
 
@@ -80,3 +83,4 @@ int main() {
 
     return 0;
 }
+
